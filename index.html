@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset ="utf-8">
+        <title>Membuat Laporan</title>
+        <style>
+            body {
+                background-image: url('https://blog-static.mamikos.com/wp-content/uploads/2023/03/Universitas-Negeri-Padang-Mamikos.jpg'); 
+                background-size: cover;
+                background-position: center;
+                background-repeat: repeat;
+                height: 100vh;
+                margin: 0;
+                font-family: Arial, sans-serif; /* Biar lebih enak dibaca */
+            }
+
+            h1, h2 {
+                color: rgb(255, 255, 255); /* Warna yang lebih profesional */
+            }
+
+            table {
+                width: 80%;
+                border-collapse: collapse;
+                background-color: white;
+                margin: 20px auto;
+                box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+                border-radius: 10px; /* Biar sudut tabel nggak tajem */
+                overflow: hidden; /* Biar radius kepake */
+            }
+
+            th, td {
+                border: 1px solid rgb(0, 0, 0);
+                padding: 12px;
+                text-align: center;
+            }
+
+            th {
+                background-color: rgb(255, 255, 255);
+                color: rgb(0, 0, 0);
+                font-weight: bold;
+                text-transform: uppercase;
+            }
+
+            /* Efek belang untuk setiap baris */
+            tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+
+            /* Hover efek biar tabel lebih interaktif */
+            tr:hover {
+                background-color: rgb(0, 119, 159);
+                transition: 0.3s;
+            }
+
+            /* Logo dan judul tengah lebih keren */
+            center img {
+                margin: 10px 0;
+            }
+
+            @media print {
+                .no-print, .no-print
+                { display:none ! important;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <center>
+            <h1>UNIVERSITAS NEGERI PADANG</h1>
+            <h2>Laporan Penerimaan Mahasiswa Baru</h2>
+            <h2> TA. 2025/2026</h2>
+            <img src="logo_unp.png" width="15%" alt="Logo UNP">
+        </center>
+
+        <table width = "100%" border="1">
+
+            <tr>
+                <th>Nomor</th>
+                <th>Nomor Pendaftar</th>
+                <th>Nama Mahasiswa</th>
+                <th>Fakultas</th>
+                <th>Departemen</th>
+                <th>Program Studi</th>
+            </tr>
+
+            <tr>
+                <th>1</th>
+                <th>240001</th>
+                <th>Franklin</th>
+                <th>Fakultas Teknik</th>
+                <th>Teknik Mesin</th>
+                <th>Teknik Mesin</th>
+            </tr>
+
+            <tr>
+                <th>2</th>
+                <th>240002</th>
+                <th>Farhan RDH</th>
+                <th>Fakultas Teknik</th>
+                <th>Teknik Elektronika</th>
+                <th>Teknik Informatika</th>
+            </tr>
+
+            <tr>
+                <th>3</th>
+                <th>240003</th>
+                <th>Carl Jhonson</th>
+                <th>Fakultas Teknik</th>
+                <th>Teknik Pertambangan</th>
+                <th>Teknik Tambang</th>
+            </tr>
+
+            <tr>
+                <th>4</th>
+                <th>240004</th>
+                <th>Dony Saputra</th>
+                <th>Fakultas Teknik</th>
+                <th>Teknik Elektronika</th>
+                <th>Pendiidikan Teknik Informatika</th>
+            </tr>
+
+            <tr>
+                <th>5</th>
+                <th>240005</th>
+                <th>Mike Tureno</th>
+                <th>Fakultas Ekonomi dan Bisnis</th>
+                <th>-</th>
+                <th>Akutansi</th>
+            </tr>
+
+            <tr>
+                <th>5</th>
+                <th>240005</th>
+                <th>Muhammad Zaky</th>
+                <th>Fakultas Ekonomi dan Bisnis</th>
+                <th>-</th>
+                <th>Bisnis Digital</th>
+            </tr>
+
+            <tr>
+                <th>6</th>
+                <th>240006</th>
+                <th>Surya Gintara</th>
+                <th>Fakultas Ekonomi dan Bisnis</th>
+                <th>-</th>
+                <th>Manajemen</th>
+            </tr>
+
+            <tr>
+                <th>7</th>
+                <th>240007</th>
+                <th>Kesya Putri</th>
+                <th>Fakultas Ilmu Sosial</th>
+                <th>Geografi</th>
+                <th>Pendidikan Geografi</th>
+            </tr>
+
+            <tr>
+                <th>8</th>
+                <th>240008</th>
+                <th>Najla Putri</th>
+                <th>Fakultas Bahasa dan Seni</th>
+                <th>Bahasa dan Sastra Indonesia dan Daerah</th>
+                <th>Sastra Indonesia</th>
+            </tr>
+
+            <tr>
+                <th>9</th>
+                <th>240009</th>
+                <th>Putri Mira</th>
+                <th>Fakultas Ilmu Sosial</th>
+                <th>Ilmu Administrasi Negara</th>
+                <th>Administrasi Publik</th>
+            </tr>
+
+            <tr>
+                <th>10</th>
+                <th>240010</th>
+                <th>Nisya Bella</th>
+                <th>Fakultas Bahasa dan Seni</th>
+                <th>Seni Rupa</th>
+                <th>Pendidikan Seni Rupa</th>
+            </tr>
+        </table>        
+    </body>
+</html>
